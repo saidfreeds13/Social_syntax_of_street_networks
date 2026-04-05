@@ -1,13 +1,7 @@
-osmnx == 2.1.0
-geopandas == 1.1.2
-pandas==3.0.0
-folium == 0.20.0
-mapclassify ==2.10.0
-numpy == 2.4.2
-seaborn == 0.13.2
-contextily==1.7.0
-matplotlib==3.10.8
-ezdxf==1.4.3
+!pip install esda
+!pip install ezdxf
+!pip install osmnx mapclassify
+!pip install contextily
 
 import osmnx as ox
 import geopandas as gpd
