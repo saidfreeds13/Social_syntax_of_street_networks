@@ -13,7 +13,7 @@ dependencies = [  # List your runtime deps, e.g., for geospatial work
     "seaborn"
     # Add others like numpy, pandas, etc.
 ]
-readme = "README.md"
+
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
