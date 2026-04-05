@@ -3,18 +3,19 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "theiss-package"  # Use lowercase with hyphens
+name = "theiss-package"
 version = "0.1.0"
-description = "Your GIS/urban analysis package"
+description = "GIS urban analysis package"
 authors = [{name = "Said Bereiya", email = "your.email@example.com"}]
-dependencies = [  # List your runtime deps, e.g., for geospatial work
+dependencies = [
     "geopandas",
     "folium",
     "seaborn"
-    # Add others like numpy, pandas, etc.
 ]
-
+readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT",  # Or your license]
+    "License :: OSI Approved :: MIT"
+]
