@@ -4,7 +4,7 @@
 More often than not former industrial districts of USA and Europe experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what an American geographer Ed Soja called "metropolarities", giving rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the former industrial areas. The street-network, and a street as its element, is taken as an object, allowing for porous movement between a micro-level and a meso-level scale of an analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt". The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
 
 A. The Block-Scheme of the method 
-B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/edit/master/README.md#b-the-methods-explanation) 
+B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation) 
 C. Installation
 D. Experimental application
 
