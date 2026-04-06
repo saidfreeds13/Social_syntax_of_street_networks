@@ -12,12 +12,13 @@ Street-network morphology via Space Syntax is taken for the  and its key measure
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 
-## The  ## 
+## The method's explanation ## 
 The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions below)
-The key function of the method is "streets_social_sdataset". Taking a street-network with morphological values and the urban functions (points), it builds a geo-dataset of street segmetns (LineString) with columns containing the syntactic and functional diversity metrics. Depending on the parameters set by a user, the number of characteristical columns may vary from four up to thirty. The results    
+The key function of the method is "streets_social_sdataset". Taking a street-network with morphological values and the urban functions (points), it builds a geo-dataset of street segmetns (LineString) with columns containing the syntactic and functional diversity metrics. Depending on the parameters set by a user, the number of characteristical columns may vary from four up to thirty. The results are then visualized with a function "visuals", essentially generating the choropleths of all metrics (both syntactic and functional). These maps can be compared between each other, especially those of morphology and functional diversity.    
+At this point, a user has two distinct street hierarchies: the one of physcial dimension and the one of social dimension of a network. The distribution of syntactic values of all streets reveals the pattern of to-/through- movement logic, while the distribution of functional diversity metrics identifies socially appropriated of to-/through- movement logic. In other words,    
 
-calculation, analysis, visualization and modeling of the (spatial) relationships between street-nework morphology and social organization of space in the context of former industrial neighborhoods of Saint Petersburg. 
-The method functions across 3 notebooks: 
+However, at this stage the relatiosnhips between these two hiararchies lack the direct systematic juxtoposition. 
+
 1. 'Street_space_diversity_metrics.ipynb': the code estimates the intensity of each street's (segement's) use and provides an evidence of a street's social role in the neighborhood by calculating Shannon-Wiener index as a key metric, as well as two additional ones (Richness Berger-Parker indecies). The section concludes with histograms of distributions for each variable. 
 2. "SSM-Diversity Relationship.ipynb" (amending): the relationship between the urban functions and the morphological qualities is studied. It measures the spatial autocorrelation (global and local Moran's I) of each variable.
 3. "Rebalancing Social Life" (IN DEVELOPMENT): provides a flexible analytical tool to rebalance the instensity of social life (as proxied with diversity) across the neighborhood according to the morphological qualities of a street. 
