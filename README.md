@@ -1,12 +1,17 @@
 # Former industrial neighborhoods of St. Petersburg: assessing relationship between street-network morphology and social organization of space. 
 *Developed by Bereiya Said, 2nd year master student of IDU ITMO*
-## Introduction ##
-More often than not former industrial districts of USA and Europe experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what an American geographer Ed Soja called "metropolarities", giving rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the former industrial areas. The street-network, and a street as its element, is taken as an object, allowing for porous movement between a micro-level and a meso-level scale of an analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt". The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
 
-A. The Block-Scheme of the method 
-B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation) 
-C. Installation
-D. Experimental application
+## Contents ##
+A. [The Block-Scheme of the method](https://github.com/saidfreeds13/Theiss_package/edit/master/README.md#a-the-block-scheme-of-the-method)   
+B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation)  
+C. [Installation](https://github.com/saidfreeds13/Theiss_package/edit/master/README.md#c-method-installation)  
+D. [Experimental application]()  
+E. [Publications]()
+
+## Introduction ##
+Nowadays, more often than not former industrial areas experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what an American geographer Ed Soja called "metropolarities"(^1), giving rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the former industrial areas. The street-network, and a street as its element, is taken as an object, allowing for porous movement between a micro-level and a meso-level scale of an analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt". The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
+
+
 
 
 ## A. The Block-Scheme of the method ##
@@ -52,7 +57,7 @@ However, at this stage the relatiosnhips between these two hiararchies lack the 
 The method may be adopted more broadly in the analysis of other cities and other type of districts. Yet, the initial hypotheses as to what type of relationships are more likely to take place in the area of study is a helpful prerequisite to the analysis and modeling. 
 
 
-## Method installation ##
+## C. Method installation ##
 In order to install the package, containng the method use python environmnent such as Colab, Jupeter Notebooks. 
 
 Firstly, clone the repo:
@@ -69,7 +74,7 @@ Finally, import the method:
 ```
 import streets_syntax_social 
 ```
-## Experimental application ##
+## D. Experimental application ##
 ss
 d
 
