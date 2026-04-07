@@ -3,7 +3,7 @@
 *Supervised by*
 
 ## Contents ##
-A. [The Block-Scheme of the method](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#a-the-block-scheme-of-the-method)   
+A. [The Block-Scheme of the method](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#a-the-block-scheme-of-the-method)   
 B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation)  
 C. [Installation](https://github.com/saidfreeds13/Theiss_package/edit/master/README.md#c-method-installation)  
 D. [Application illustration](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#c-method-installation)  
