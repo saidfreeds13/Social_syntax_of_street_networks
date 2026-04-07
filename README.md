@@ -115,11 +115,11 @@ Then, install the git package and extract the package:
 ```
 !pip install git+https://github.com/saidfreeds13/Social_syntax_of_street-networks.git
 
-!pip install theiss-package
+!pip install social_syntax_streets
 ```
 Finally, import the method:
 ```
-import streets_syntax_social 
+import social_syntax_streets 
 ```
 ## D. Experimental application ## (In dev)
 This section contains snippets from the experimental application of a method, for more detailed examples see the folder "Experiments"  
