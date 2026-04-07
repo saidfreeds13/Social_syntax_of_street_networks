@@ -13,7 +13,7 @@ D. Experimental application
 Street-network morphology via Space Syntax is taken for the  and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood. The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
 
 <p align="center">
-  <img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/user-attachments/assets/3411a3d7-996a-4321-badd-f8f31f8f8af8">
+  <img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/ef236e7db913c133b50ec5bd5bfd48bd367cfe32/canvas.png">
 </p>
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
@@ -69,12 +69,13 @@ Finally, import the method:
 ```
 import streets_syntax_social 
 ```
+## Experimental application ##
+ss
+d
 
+## Publications ##
+1. Bereiya S.A. The Street-Road Network of a Post-Socialist City as an Inherited System: Identifying Relationships between Morphology and Social Organization Using Tools of Digital Urban Studies // Information Technologies in Humanitarian Research: Proceedings of the International Scientific-Practical Conference, Krasnoyarsk, November 10–13, 2025 / – Krasnoyarsk: Siberian Federal University, 2026. - Pp. 98-103. - [URL.](https://bik.sfu-kras.ru/ft/LIB2/ELIB/u004/free/i-205105528.pdf#%5B%7B%22num%22%3A314%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C744%5D) (*In Russian*)
 
 ## Experimental application ##
 
-## Intermediate results ##
-<p align="center">
-  <img width="1010" height="2400" alt="BS_methodology drawio" src="s0.png">
-</p>
 ---
