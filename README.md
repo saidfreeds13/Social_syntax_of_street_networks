@@ -1,4 +1,4 @@
-# Former industrial neighborhoods of St. Petersburg: assessing relationship between street-network morphology and social organization of space. 
+# Former industrial neighborhoods of Saint Petersburg: assessing relationships between street-network morphology and social organization of space. 
 *Developed by Bereiya Said, 2nd year master student of IDU ITMO*  
 *Supervised by*
 
@@ -10,10 +10,15 @@ D. [Application illustration](https://github.com/saidfreeds13/Theiss_package/tre
 E. [Publications]()
 
 ## Introduction 
-Nowadays, more often than not former industrial areas experience the consequences of being "left-behind"[]. "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure[], an increased social tension[], stigmatization[]. These are what an American geographer Ed Soja called "metropolarities"[]: new (nonlinear) forms of social inequality and increased social contrasts. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required, more so in the context of post-socialist cities. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the spatial morphology and social organization of space in the former industrial neighborhoods. A street-network, and a street as its element, are suggested as a perspective unit of analysis, allowing for porous movement between a micro-level and a meso-level scales. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt"[]. The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
+Nowadays, more often than not former industrial areas experience the consequences of being "left-behind"[^1]. "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure[^2], an increased social tension[^3], stigmatization[^4]. These are what an American geographer Ed Soja called "metropolarities"[^5]: new (nonlinear) forms of social inequality and increased social contrasts. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required, more so in the context of post-socialist cities [^6]. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the spatial morphology and social organization of space in the former industrial neighborhoods. A street-network, and a street as its element, are suggested as a perspective unit of analysis, allowing for porous movement between a micro-level and a meso-level scales. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt". The theoretical foundation of the research is the movement dubbed "Spatial Cultures" which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson[^7].
 
-[1]: My reference
-
+[^1]: Soja E. W. My Los Angeles: From Urban Restructuring to Regional Urbanization. Berkeley, Los Angeles, London: University of California Press, 2014.
+[^2]: Fraser A., Clark A. Damaged hardmen: Organized crime and the half-life of deindustrialization // Br. J. Sociol. — 2021. — Vol. 72. — P. 1062–1076. — DOI: https://doi.org/10.1111/1468-4446.12828.
+[^3]: Linkon S. L. The half-life of deindustrialization: Working-class writing about economic restructuring. — Ann Arbor: University of Michigan Press, 2018. 
+[^4]: Vanke A. Co-existing structures of feeling: Senses and imaginaries of industrial neighbourhoods // The Sociological Review. — 2024. — Vol. 72, № 2. — P. 276–300. — DOI: 10.1177/00380261221149540.
+[^5]: Soja E. W. Postmetropolis. Critical Studies of Cities and Regions. Malden: Blackwell, 2000. Pp. 264–297
+[^6]: Golubchikov O., Badyina A., Makhrova A. The Hybrid Spatialities of Transition: Capitalism, Legacy and Uneven Urban Economic Restructuring // Urban Studies. 2014. Vol. 51, № 4. P. 617–633.
+[^7]: Spatial Cultures: Towards a New Social Morphology of Cities Past and Present / Ed. by S. Griffiths, A. Von Lünen. — London; New York: Routledge, 2016. — P. 23.
 
 ## A. The Block-Scheme of the method ##
 Street-network morphology is operationalized via Space Syntax. Its key measuresare Integration and Choice calculated for street segments. One can prepare the dataset with syntactic measures in a QGis module "Graph Analysis". 
