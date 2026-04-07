@@ -112,8 +112,20 @@ Finally, import the method:
 import streets_syntax_social 
 ```
 ## D. Experimental application ##
-ss
-d
+This section contains snippets from the experimental application of a method, for more detailed examples see the folder "Experiments"  
+
+### The results from the algorithm 1 (a possible representation) 
+<p align="center">
+  <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/60ae54740a34e6ecc8eee71a1e92f71bb4857e7c/Dashboard%20example.png">
+</p>
+<p align= "center"> Dashboard for the comparison of street-network morphology and social organization of space in southwestern part of the Grey Belt (St. Petersburg), author: Bereiya Said 2nd year master student of IDU ITMO </p>
+
+### The results from the algorithm 2 (a possible representation) 
+
+#### Mismatches of the whole street-network
+
+#### Mismatches on a single street-level
+
 
 ## Publications ##
 1. Bereiya S.A. The Street-Road Network of a Post-Socialist City as an Inherited System: Identifying Relationships between Morphology and Social Organization Using Tools of Digital Urban Studies // Information Technologies in Humanitarian Research: Proceedings of the International Scientific-Practical Conference, Krasnoyarsk, November 10–13, 2025 / – Krasnoyarsk: Siberian Federal University, 2026. - Pp. 98-103. - [URL.](https://bik.sfu-kras.ru/ft/LIB2/ELIB/u004/free/i-205105528.pdf#%5B%7B%22num%22%3A314%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C744%5D) (*In Russian*)
