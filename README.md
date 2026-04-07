@@ -53,18 +53,24 @@ However, at this stage the relatiosnhips between these two hiararchies lack the 
 
 <p align="center"> 
   $$\Large(a \cdot Int_i + b \cdot Ch_i) - FD_i = mismatch_i$$ 
-</p> ,where  
 
-*a*: weight of integration measure;  
-*b*: weight of choice measure;  
-*Int_i*: integration value for an i-segment;  
-*Ch_i*: choice value for an i-segment;  
-*FD_i*: functional diversity metric for an i-segment;  
-*mismatch_i*: mismatch between social and morphological values of an i-segment. 
+  <details> <summary> Open the variables' description  </summary>
+
+  *a*: weight of integration measure;  
+  *b*: weight of choice measure;  
+  *Int_i*: integration value for an i-segment;  
+  *Ch_i*: choice value for an i-segment;  
+  *FD_i*: functional diversity metric for an i-segment;  
+  *mismatch_i*: mismatch between social and morphological values of an i-segment. 
+
+</details>
+</p> 
   
   
-    
-The python-algorithm has the following parameters:
+#### The python-algorithm *streets_mismatched()* has the following parameters:
+> [!IMPORTANT]
+> All metrics must be normalized for mismatches to be adequately calculated .   
+> The best way would be to run apply the first algorithm "streets_social_sdataset()" with packages containg normalized metrics (Basic_plus, Advanced_plus or All) 
 ```
 streets_mismatched(
     data, # the dataset with normalized syntactic measures and functional urban metrics
@@ -75,14 +81,15 @@ streets_mismatched(
     ch_l # Choice metric column (local)
     )
 ```
-> [!IMPORTANT]
-> All metrics must be normalized for mismatches to be adequately calculated .   
-> The best way would be to run apply the first algorithm "streets_social_sdataset()" with packages containg normalized metrics (Basic_plus, Advanced_plus or All) 
+
 
 After the activation of *streets_mismatched()*, the function would ask for the weights of syntactic measures a and b at:  
 1. Average scale
 2. Global scale  
 3. Local scale   
+
+### Algorithm 2. Interpretation
+Two street hiearhies are exmpolicitly compared  
 
 ## C. Method installation ##
 In order to install the package, containng the method use python environmnent such as Colab, Jupeter Notebooks. 
