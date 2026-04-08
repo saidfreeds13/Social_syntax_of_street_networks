@@ -3,7 +3,6 @@ import pandas as pd
 import folium
 import mapclassify
 import numpy as np
-#from shapely.geometry import Point, LineString, Polygon
 import matplotlib.pyplot as plt
 import math
 import seaborn as sns
@@ -161,9 +160,6 @@ def visuals(data, save_n=None):
         else:
           plt.savefig(f"{save_n}_mismathes_Natural_Breaks_basemap.png", dpi=300, bbox_inches='tight',
                 facecolor='white', edgecolor='none')  
-      
-      plt.savefig(f'{col}_Natural_Breaks_basemap.png', dpi=300, bbox_inches='tight',
-                facecolor='white', edgecolor='none')
       plt.show()
 
 
