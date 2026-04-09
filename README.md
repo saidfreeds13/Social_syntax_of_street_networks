@@ -30,7 +30,7 @@ Social organization of space is uderstood as a distribution of urban functions a
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ## B. The method's explanation ## 
-The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation)
+The developed ETL-algorithms are packed in the SocSynStreets package (installation instructions are [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation))
 
 ### Algorithm 1. A street-network dataset with syntactic and functional diversity metrics  ###
 The key function of the method is "streets_social_sdataset()".
@@ -82,7 +82,7 @@ However, at this stage the relatiosnhips between these two hiararchies lack the 
   
 #### The python-algorithm *streets_mismatched()* has the following parameters:
 > [!IMPORTANT]
-> All metrics must be normalized for mismatches to be adequately calculated .   
+> All metrics must be normalized for mismatches to be adequately calculated.   
 > The best way would be to run apply the first algorithm "streets_social_sdataset()" with packages containg normalized metrics (Basic_plus, Advanced_plus or All) 
 ```
 streets_mismatched(
@@ -94,15 +94,24 @@ streets_mismatched(
     ch_l # Choice metric column (local)
     )
 ```
+>[!NOTE]
+>The street segments that have no urban functions in the immediate street space are ommited in the final visualization and are dimmed NaN in the dataset.
 
+After the activation of *streets_mismatched()*, the function would ask for the weights of syntactic measures a (Integration) and b (Choice) at:  
+1. Average scale (average between local and global syntactic measures)
+2. Global scale  (only global syntactic measures are included in the relationship identification)
+3. Local scale   (only local syntactic measures are included in the relationship identification)
 
-After the activation of *streets_mismatched()*, the function would ask for the weights of syntactic measures a and b at:  
-1. Average scale
-2. Global scale  
-3. Local scale   
+```
+mism plot
+```
 
 ### Algorithm 2. Interpretation (In dev)
-Two street hierarchies are exmpolicitly compared  
+As a result of the second algorithm, two street hierarchies are mathematically compared and the relationships between the two could be identified as matching or mismatching. 
+Importantly, the definition of (mis-)matching is fluid and dependent on an analyst's specification. Here, we provide a few examples of such definition and its impact on a pipeline realization.   
+1. Is social infrastructure generally located in the most integrated streets?
+2. Are the most functionally diverse areas located on the well-integrated and well-porous streets of a neighborhood?
+3. Are the less socially-engaged streets more likely to be found on the least integrated streets?   
 
 ## C. Method installation ##
 In order to install the package, containng the method use python environmnent such as Colab, Jupeter Notebooks. 
@@ -120,7 +129,7 @@ Finally, import the method:
 ```
 import Social_syntax_of_street_networks.SocSynStreets
 ```
-## D. Experimental application ## (In dev)
+## D. Experimental application (In dev)
 This section contains snippets from the experimental application of a method, for more detailed examples see the folder "Experiments"  
 
 ### The results from the algorithm 1 (a possible representation) 
