@@ -147,8 +147,11 @@ This section contains snippets from the experimental application of a method, fo
 <p align= "center">
 
 #### Mismatches on a single street-level (In dev)
-
-
+<p align="center">
+  <img width="900" height="900" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Social_syntax_of_street_networks/blob/7c2d5ac76207a90d72a6a730d33e5dda82b94e31/Experimentation%20results/ezgif-6109f17076efe748.gif">
+</p>
+<p align= "center">
+  
 ## E. Publications ##
 1. Bereiya S.A. The Street-Road Network of a Post-Socialist City as an Inherited System: Identifying Relationships between Morphology and Social Organization Using Tools of Digital Urban Studies // Information Technologies in Humanitarian Research: Proceedings of the International Scientific-Practical Conference, Krasnoyarsk, November 10–13, 2025 / – Krasnoyarsk: Siberian Federal University, 2026. - Pp. 98-103. - [URL.](https://bik.sfu-kras.ru/ft/LIB2/ELIB/u004/free/i-205105528.pdf#%5B%7B%22num%22%3A314%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C744%5D) (*In Russian*)
 
